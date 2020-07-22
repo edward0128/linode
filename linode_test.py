@@ -1,5 +1,5 @@
 from linode_api4 import LinodeClient
-client = LinodeClient("5b1eb1cd3f9664dfd429ec32a00a8cfbb4c8ac9d3c2f245f68381919e6eb32ab")
+client = LinodeClient("5b1eb1cd3f9664dfd429ec32a00a8cfbb4c8XXXXXXXXXXXXXXXXXXXXXXXXXX")
 
 #my_linodes = client.linode.instances()
 #for current_linode in my_linodes:

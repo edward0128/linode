@@ -108,12 +108,12 @@ class linode_lke_api():
   return False
 
 def test_linode_api():
-    token="5b1eb1cd3f9664dfd429ec32a00a8cfbb4c8ac9d3c2f245f68381919e6eb32ab"
+    token="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     linode_cluster = linode_lke_api(token)
     assert linode_cluster.list_kubernetes_clusters() == True
 
 if __name__ == "__main__":
-    token="5b1eb1cd3f9664dfd429ec32a00a8cfbb4c8ac9d3c2f245f68381919e6eb32ab"
+    token="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     linode_cluster = linode_lke_api(token)
     
     linode_cluster.list_kubernetes_clusters()
