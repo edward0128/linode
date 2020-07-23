@@ -126,7 +126,9 @@ class linode_lke_api():
   return ""
 
 def test_linode_api():
-    token="04e5a1c6b29003139db256510e39ca41f4684c68572c93cadc76f223d0f273c8"
+
+    token="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
     linode_cluster = linode_lke_api(token)
 
     print("Test create_kubernetes_cluster")
@@ -226,7 +228,8 @@ def test_linode_api():
     assert result != ""
     
 if __name__ == "__main__":
-    token="04e5a1c6b29003139db256510e39ca41f4684c68572c93cadc76f223d0f273c8"
+    token="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
     linode_cluster = linode_lke_api(token)
     
     linode_cluster.list_kubernetes_clusters()
